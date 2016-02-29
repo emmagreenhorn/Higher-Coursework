@@ -39,7 +39,7 @@ public class CONCERT
         System.out.println("Concert Sales: Customer update");
         System.out.println("** Preparing to read data file.");
         // read file, fetch data as String array containing the rows
-        String[] dataRows = customerFile.readCSVtable();
+        String[] dataRows = customerFile.READCSVtable();
         // calculate the number of customer rows, skip headings
         noOfCustomers = dataRows.length;
         // update user with number of rows with customer details
@@ -80,15 +80,15 @@ public class CONCERT
 
         if (countS > countW)
         {
-            System.out.println("\n Most customers bought tickets in the school");
+            System.out.println("\n Most customers purchased tickets in the school");
         }
         else if (countS < countW)
         {
-            System.out.println("\n Most customers bought tickets on the website");
+            System.out.println("\n Most customers purchased tickets on the website");
         }
         else
         {
-            System.out.println("\n Same number of customers bought tickets in school and on the website");
+            System.out.println("\n Same number of customers purchased tickets in school and on the website");
         }
         // A blank line to separate this report from others.
         System.out.println();
@@ -138,4 +138,4 @@ public class CONCERT
 
     }
 }
-}
+
