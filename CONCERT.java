@@ -39,7 +39,7 @@ public class CONCERT
         System.out.println("Concert Sales: Customer update");
         System.out.println("** Preparing to read data file.");
         // read file, fetch data as String array containing the rows
-        String[] dataRows = customerFile.READCSVtable();
+        String[] dataRows = customerFile.readCSVtable();
         // calculate the number of customer rows, skip headings
         noOfCustomers = dataRows.length;
         // update user with number of rows with customer details
