@@ -8,28 +8,23 @@
 public class CUSTOMER
 {
 
-    {
-        {
-            private string CustomerID();
-            private char TicketID;
-            private char method;
-            private int NumOfTickets
-            public float total; 
-            public char night;
-            public String SeatSecction;
+    private String CustomerID;
+    private char TicketID;
+    private char method;
+    private int NumOfTickets;
+    public float total; 
+    public char night;
+    public String SeatSection;
 
-        }
-    }
-
+    
     public void CUSTOMER()
     {
         CustomerID ="";
         TicketID = 0;
-        NumOftickets = 0;
-        method = 0;
+        NumOfTickets = 0;
+        method = 0; 
         total = 0;
 
-       
     }
 
     public void readCustomerDetails (String dataItems)
@@ -69,4 +64,4 @@ public class CUSTOMER
     { return NumOfTickets; 
     }
 }
-}
+
